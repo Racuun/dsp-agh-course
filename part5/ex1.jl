@@ -49,4 +49,3 @@ lines!(axs,  qsin);
 lines!(axs,  sign)
 
 fig
-wait(fig.scene)
