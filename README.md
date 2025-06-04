@@ -4,7 +4,7 @@
 ## Requirements
 1. Julia 1.11+
 2. `GLMakie` installed
-3. `CarioMakie` installed
+3. `CairoMakie` installed
 
 ### Downloading depedencies
 Run julia:
@@ -16,7 +16,7 @@ You can install packages through command line or by code.
 ```
 ]   #enter pkg
 add GLMakie
-add CarioMakie
+add CairoMakie
 
 ]st GLMakie #check version
 ```
@@ -25,12 +25,12 @@ Run in repo directory:
 ``` julia
 using Pkg
 Pkg.activate(".")
-Pkg.add("CarioMakie")
+Pkg.add("CairoMakie")
 Pkg.add("GLMakie")
 ```
 If everything worked:
 ``` julia
-using CarioMakie
+using CairoMakie
 using GLMakie
 ```
 
