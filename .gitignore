@@ -8,3 +8,7 @@
 
 
 Manifest.toml
+# Test files
+test.jl
+# Data sensitive files
+fft_module.jl
